@@ -1,0 +1,247 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sora;
+    padding: 0;
+    margin: 0;
+}
+
+.heder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left{
+    margin: 3rem;
+    float: left;
+    padding: 1rem;
+    
+}
+
+.left img{
+    width: 80%;
+}
+
+.right{
+   
+    text-align: right;
+    width: 65%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.right ul{
+    list-style: none;    
+}
+
+.right li{
+    display: inline;
+    padding-right: 5rem;    
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+    font-weight: 550;
+    font-size: 20px;
+    transition: .5s ease;
+}
+.content_right{
+    display: flex;
+    margin-left:20%;
+    margin-top: -38%;
+    width: 100%;
+    
+}
+
+.content_right img{
+    z-index: -1;
+    width: 79vw;
+    
+}
+
+a:hover{ 
+    color: #5CB6B1;
+    transform: translateY(1);
+}
+
+
+.content{
+    padding-left: 6rem;
+}
+
+.content_left{
+    margin-top: 3rem;
+}
+
+
+.content_left h1{
+    font-size: 40px;
+    color: #555;
+    font-weight: 400;
+    letter-spacing: 0.25rem;
+    margin-top: -1rem;
+}
+
+.content_left_info{
+    margin-top: -0.75rem;
+    padding-top: -50px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #555;
+    font-weight:normal;
+}
+
+.button_set{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-left: 0.5rem;
+    padding-left: 1rem;
+}
+
+.button_login{
+    background: #4ef75c;
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.button_login:hover{
+    transform: scale(1.2);
+}
+
+.about_us{
+    position: relative;
+    top: -16rem;
+    background-image: url("../images/aboutus.jpg");
+    height:78vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #eee;
+    padding: 5rem;
+    margin-top: 5rem;
+    
+}
+.para-box{
+  padding: 3rem;
+  position: relative;
+  background-color: #eee;
+  border-radius: 10px;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000; 
+  height: 30rem; 
+  /*min-height: 100vh;*/
+}
+
+
+.para-box p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: bold;
+    color: #000000;
+    line-height: 30px;
+    word-spacing: 10px;
+    opacity: 1;
+    text-align: justify;
+  }
+
+
+  .head-para-type{
+    position: relative;
+    
+  }
+  
+
+  .head-para-type::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: #000;
+    animation: blinkCursor 0.8s steps(3) infinite;
+  }
+  
+  @keyframes blinkCursor {
+      0%,75%{
+        opacity: 1;
+      }
+      76%,100%{
+        opacity: 0;
+      }
+  }
+
+  .head-para-type h1{
+    position: relative;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000; 
+   }
+
+   .head-para-type2 h1{
+    position: relative;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000; 
+   }
+  
+   .head-para-type2{
+    position: relative;
+    
+  }
+
+.contact_info{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.repoter, .moderator, .admin{
+  width: 23rem;
+ /* border: 1px solid #333;
+  background-color: #4ef75c;*/
+  
+}
+
+.repoter h3, .moderator h3, .admin h3{
+  text-align: center;
+}
+
+.repoter p, .moderator p, .admin p{
+  color: #111;
+  font-weight: normal;
+  float: left;
+}
+
+.tele_contact{
+  font-size:small;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+}
+
+.email_contact{
+  float: left;
+  font-size:small;
+  font-style:normal;
+  font-weight:normal;
+  margin-top: -1rem;
+  margin-left: 2rem;
+}

@@ -1,0 +1,71 @@
+.form_1{
+    padding-top: 2rem;
+    padding-left: 5rem;
+
+}
+
+.input_fields{
+    width: 240px;
+    height: 30px;
+    background: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 1px solid #333;
+}
+
+.label{
+    display:inline-block;
+    margin-left: 2rem;
+    width: 10rem;
+
+}
+
+
+.accept_button{
+    position: absolute;
+    width: 169px;
+    height: 51px;
+    border: none;
+    background: #ACE0B8;
+    margin-left: -12rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 18px;  
+    color: #333;
+}
+
+.reject_button{
+    position: absolute;
+    width: 169px;
+    height: 51px;
+    border: none;
+    background: #FF4444;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 18px; 
+    color: #333;   
+
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.main_title{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: x-large;
+    color: #333;
+}
+
+.accept_button:hover{
+    transform: scale(1.2);
+}
+
+.reject_button:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,34 @@
+.controls {
+    width: 294px;
+    margin: 15px auto;
+  }
+  
+  .remove_num{
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.20rem;
+  }
+
+  .controls a i.fa-minus {
+    margin-right: 5px;
+  }
+  
+  .mark {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+  }
+  
+  .add_num{
+      margin-left: 5.5rem;
+      margin-top: -0.5rem;
+  }
+
+  .number{
+      margin-top: -1.5rem;
+  }
+
+  .number input{
+      margin-bottom: 10px;
+  }
+  

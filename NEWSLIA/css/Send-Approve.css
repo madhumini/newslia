@@ -1,0 +1,158 @@
+.box_head:hover img{
+    opacity: 1;
+  } 
+  .post_sort{
+      padding-left:80px;
+  }
+  .box-container{
+    height: 240px;
+  }
+
+  /* Edit kala 
+
+  .app-more{
+      font-size:14px;
+      text-align:right;
+      margin-top:-12%;
+      display:flex;
+      flex-direction:row;
+      
+  }
+  .app-more p{
+    margin-left:5%;
+  }
+
+
+  */
+
+  .setting_close{
+    transform:scale(1.5);
+    margin-left:78%;
+    margin-top :-5%;
+  }
+  .setting_close img{
+    padding-right:5px;
+    cursor: pointer;
+  }
+
+  .box-container:hover{
+    transform: scale(1.6);
+  }
+
+  .box-container{
+    transform: scale(1.6);
+    margin-top: 3rem;
+    margin-left: 1.8rem;
+  }
+
+  .box_body h3{
+      font-size:0.9rem;
+  }
+
+  .box_body p{
+      font-size:0.65rem;
+  }
+
+  .box-read{
+    width:800px;
+    height:400px;
+    margin-top:-3rem;
+    padding:1rem;
+    overflow: hidden;
+    overflow-y:scroll;
+  }
+
+  .box-read h2{
+    font-size:1.8rem;
+    font-weight:normal;
+    color:#222;
+  }
+
+  .box-read p{
+    font-weight:normal;
+    font-size:1rem;
+    padding:1rem;
+    text-align:justify;
+    color:#555;
+    letter-spacing:1.8px;
+    line-height:30px;
+  }
+
+  .button-set{
+    margin-top:-13rem;
+    margin-left:5rem;
+    display:flex;
+    flex-direction:row;
+  }
+
+  .view_btn{
+    width:100px;
+    margin-top:20%;
+    margin-left:35rem;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.4);
+  }
+
+  .update_btn{
+    color:#222;
+  }
+
+  .remove_btn{
+   margin-top:15.2rem;
+   background-color:#FF4444;
+   margin-left:3rem;
+   color:#222;
+  }
+
+  .close_btn{
+    position: flex;
+    margin-left:95%;
+    margin-top:1%; 
+    cursor: pointer;
+  }
+  .close_btn img{
+    width:30px;
+  }
+
+  .popup_smart .popup_smart_content{
+    width:290px;
+    height: 260px;
+  }
+
+  .inp1{
+    margin-left:-0.5rem;
+  }
+
+  .update_btn{
+    text-align:center;
+  }
+
+  .img_set{
+      margin-top:15.5rem;
+      transform: scale(1.4);
+      padding-left:2rem;   
+  }
+
+  .img_set img{
+    cursor: pointer;
+  }
+
+  .btn_set_option{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .select_option{
+      background:#ACE0B8;
+      margin-bottom:0.5rem;
+      padding: 1rem;
+      width:12.5rem;
+      color:#444;
+      font-weight:10px;
+      letter-spacing:1px;
+      transition: 0.5s ease;
+      cursor: pointer;
+  }
+
+  .select_option:hover{
+    transform:scale(1.1);
+  }

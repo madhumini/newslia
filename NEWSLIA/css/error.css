@@ -1,0 +1,48 @@
+.content_erro{
+    position: absolute;
+    top: 0%;
+    left: 36.5%;
+    background: #fff;
+    width: 410px;
+    height: 140px;
+    z-index: 3;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 2px 2px 1px 3px #5555;
+    transform: translate(0%, -105%);
+    transition: all 350ms ease-in-out;
+  }
+
+  .error_head{
+      color: #333;
+      font-size: 15px;
+  }
+
+
+  .error_foot{
+      float: right;
+      background-color: #ACE0B8;;
+      color: #444;
+      font-weight: 500;
+      font-size: 12px;
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+      width: 15px;
+      margin-top: 1rem;
+      
+  }
+
+  .error_body{
+      font-size: 13px;
+      letter-spacing: 1px;
+      color: #FF4444;
+      margin-top: 1rem;
+  }
+
+  .errorbox.active .content_erro{
+    transform: translate(0%,0%) scale(1);
+  }

@@ -1,0 +1,261 @@
+
+.content{
+    display: flex;
+    flex-direction: row;    
+}
+
+.content_right{
+    margin-right: -3%;
+}
+.content_right img{
+    width: 61vw;
+}
+
+
+.content_left h1{
+    font-weight:300;
+    text-align: center;
+    padding: 6vw;
+}
+
+.content_posts_view{
+    display: flex;
+    flex-direction: row;
+    padding: 2vw 0vw 0vw 7vw;
+}
+
+.posts_content_view_head{
+    font-size:x-large;
+    font-weight: 500;
+    color: #444;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-shadow:black;
+    padding: 10px;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+
+.drop_area_sort {
+    color: #333;
+    padding: 16px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 180px;
+    height: 0.5px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top:0.25vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .drop_area_sort:hover, .drop_area_sort:focus {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  #myInput{
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-left: 10px;
+  }
+
+  #myInput:focus{
+      outline: 3px solid #ddd;
+  }
+
+  .drop_area_sort_cont{
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 200px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    margin-left: 5vw;
+    border-radius: 5px;
+  }
+  .drop_area_sort_cont img{
+      margin-left: 10px;
+  }
+  .drop_area_sort_cont a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+
+   .post_sort_bar a:hover{
+       background-color: #ddd;
+   }
+
+   .show{
+       display: block;
+   }
+
+   .posts_content_view_body{
+       margin: 1vw 4vw 2vw 8vw;
+       padding: 2vw;
+       
+   }
+
+   .box-container{
+    padding: 4px;
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.4s;
+    margin-right: 7rem;
+    margin-bottom: 3rem;
+    position: relative;
+    float: left;
+  }
+
+  .box_head img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 1;
+    backface-visibility: hidden;
+  }
+  .box-container:hover{
+    transform: scale(1.18);
+  }
+  
+  .box_body{
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+  
+  .box_body h3{
+    font-family: sora;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #333;
+    line-height: 30px;
+
+  }
+  
+  .box_body p{
+    font-family: sora;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #333;
+  }
+
+  .view_btn {
+    background-color: #ACE0B8;;
+    color: #444;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+  .middle {
+    margin-top: -100px;
+    margin-left: 110px;
+    position: absolute;
+    transition: 0.5 ease;
+    opacity: 0;  
+  }
+
+  .box_head:hover .middle{
+    opacity: 1;
+  }
+
+ .box_head:hover img{
+    opacity: 0.3;
+  }
+
+  .more{
+    float: right;
+    margin-top: -20%;
+    margin-right: 5%;
+  }
+  .more img{
+    transform: scale(0.7);
+    cursor: pointer;
+  }
+
+.more_post{
+  list-style-type: none;
+  background-color: white;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.4s;
+  position: absolute;
+  min-width: 100px;
+  text-align: left;
+  margin: -1.5rem 10px;
+  display: none;
+}
+
+.more_post a{
+  text-decoration: none;
+  display: block;
+  color: #444;
+  font-size: small;
+  letter-spacing: 1.2px;
+  padding: 0.5rem;
+}
+
+.more_post a:hover{
+  background-color: #eee;
+}
+
+.more:hover .more_post{
+ display: block;
+}
+
+hr{
+  border: 1px solid #666;
+  opacity: 0.3;
+}
+
+
+.popular_famous{
+  margin-top: 2.5rem;
+}
+
+.popular_famous_info{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.popular_famous_container{
+  width: 420px;
+  
+}
+.title{
+  position:relative;
+  margin: -4rem;
+  margin-left: 1rem;
+  color: #666;
+  font-size: 22px;
+}
+.right_side,.left_side{
+ object-fit: contain;
+ width: 20px;
+}

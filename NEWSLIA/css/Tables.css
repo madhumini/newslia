@@ -1,0 +1,56 @@
+
+/*.table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width=75%;
+  }
+  .table{
+    text-align: center;
+  }*/
+
+  table {
+    font-family: Roboto;
+    border-collapse: collapse;
+    width:500px;
+  }
+  
+  th, td {
+    font-size: medium;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {background-color: rgb(185, 209, 191);}
+  th {
+    background-color: rgb(185, 209, 191);
+    color: rgb(12, 8, 8);
+  }
+  input.remove{
+    margin-top: 20px;
+      width: 68px;
+      height: 21px;
+      left: 1034px;
+      top: 379px;
+      margin-left: 10px;
+      
+      background: #f32323;
+      border-radius: 8px;
+    }
+
+    input.deactivate{
+        margin-top: 20px;
+          width: 68px;
+          height: 21px;
+          left: 1034px;
+          top: 379px;
+          margin-left: 10px;
+          
+          background: rgb(235, 98, 7);
+          border-radius: 8px;
+        }
+        
+                  
+
+  

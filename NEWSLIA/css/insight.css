@@ -1,0 +1,57 @@
+.card {
+	position: relative;
+	width: 280px;
+	height: 80px;
+	background-color: #fafafa;
+	box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	overflow: hidden;
+    margin-right: 6rem;
+    margin-top: 2rem;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card .content {
+	display: flex;
+	align-items: center;
+}
+
+.card .content .imgBx {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.card .content .imgBx img {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card .content h2 {
+	margin-left: 15px;
+	font-size: 1.3em;
+	color: #111;
+}
+
+.card .content h2 span {
+	font-size: 0.8em;
+	font-weight: 400;
+	color: #999;
+}
+
+
+.reporter_insight{
+    display: flex;
+    
+    padding-left: 8rem;
+    padding-right: 8rem;
+}

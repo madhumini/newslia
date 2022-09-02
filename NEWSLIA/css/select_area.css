@@ -1,0 +1,89 @@
+.right_side{
+    margin-top: -35%;
+}
+.bottom_side{
+    margin-left: 3rem;
+    padding: 2rem;
+    margin-top: -1rem;
+}
+
+.second_box{
+    margin-left: 5rem;
+}
+
+.first_box{
+    margin-left: 1rem;
+}
+
+.first_box_area{
+    width:320px;
+    height:300px;
+    margin-top:1rem;
+    overflow: hidden;
+    overflow-y:scroll;
+    margin-left: 1rem;
+}
+
+.second_box_area{
+    width:320px;
+    height:300px;
+    margin-top:1rem;
+    overflow: hidden;
+    overflow-y:scroll;
+    margin-left: 1rem;
+    z-index: -1;
+}
+
+.btn_set{
+    margin-left: 25rem;
+    margin-top: -13rem;
+}
+
+.btn_set button{
+    width: 4rem;
+    height: 2rem;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.edit_btn_set{
+    background-color: #5CB6B1;
+    width: 4rem;
+    height: 2rem;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.save_btn_set{
+    width: 4rem;
+    height: 2rem;
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    transition: 0.3s ease;
+    background-color: #5FEF80;
+}
+
+.edit_btn_set:hover{
+    transform: scale(1.2);
+}
+
+.save_btn_set:hover{
+    transform: scale(1.2);
+}

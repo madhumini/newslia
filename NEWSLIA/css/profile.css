@@ -1,0 +1,199 @@
+.left_side{
+    width:20%;
+    height: 100vh;
+    background-color: #F1ECEC;
+}
+
+.icon_left_side{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.icon_left_side img{
+    width: 40px;
+}
+
+.icon_left_side li{
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.icon_left_side a{
+    text-decoration: none;
+}
+
+.icon_left_side p{
+    margin-top: -1.5rem;
+    margin-left: 4rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.icon_left_side li:hover{
+    background-color: #ddd;
+}
+
+
+.right_side{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 19rem;
+    margin-top: -33%;
+    width: 81%;   
+}
+
+.top_side{
+    
+    height: 30%;
+    text-align: center;
+    padding-top: 5rem;
+    padding-left: -5rem;
+    margin-top: -48rem;
+    z-index: -1;
+}
+
+.top_side img{
+    transform: scale(2);
+}
+
+.top_side p{
+    padding-top: 1.75rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+   
+}
+
+
+
+
+.bottom_side{
+    padding:2.5rem;
+    color: #444;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.complaints{
+    margin-left: 8rem;
+}
+
+.card3{
+    margin-left: 8rem;
+}
+
+.card3 .content h2 span{
+	margin-left: -3rem;   
+}
+
+.precentage{
+    margin-left: -6rem;
+    font-size: medium;
+    color: #000;
+    font-weight: bold;
+}
+
+
+.card {
+	position: relative;
+	width: 250px;
+	height: 58px;
+	background-color: #efefef;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	overflow: hidden;
+	transition: height 0.5s ease-in-out;
+    border-radius: 5px;
+}
+.card.active {
+	height: 300px;
+}
+
+.card .content {
+	display: flex;
+	align-items: center;
+}   
+
+.card .content .imgBx {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.card .content .imgBx img {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card .content h2 {
+	margin-left: 15px;
+	font-size: 1.3em;
+	color: #111;
+    text-align: center;
+    margin-left: 5rem;
+}
+
+.card .content h2 span {
+	font-size: 0.8em;
+	font-weight: 400;
+	color: #999;
+   
+}
+
+.navigation {
+	position: relative;
+	top: 25px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 20px 0;
+}
+
+.navigation li {
+	list-style: none;
+	margin: 15px 0;
+}
+
+.navigation li p span{
+    float: right;
+}
+
+.toggle {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	background-color: #36b3ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.toggle i {
+	color: #fff;
+	font-size: 1.4em;
+	transform: transform 0.5s ease-in-out;
+}
+
+.card.active .toggle i {
+	transform: rotate(180deg);
+}
+
+

@@ -1,0 +1,94 @@
+.menu_icon{
+    visibility: hidden;
+}
+@media only screen and (max-width: 1344px) {
+    .navigation-profile-menu-container{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1178px) {
+    .navigation-left img{
+        width: 50%;   
+    }
+    .navigation-center img{
+        width: 50%;   
+    }
+
+    .navigation-right p{
+        font-size: 85%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .navigation-left img{
+        width: 60%;   
+    }
+    .navigation-center img{
+        width: 60%;   
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .navigation-left img{
+        width: 80%;   
+        margin-left: 2rem;
+    }
+    .navigation-center img{ 
+        width: 80%;   
+        margin-left: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 895px) {
+  .navigation-menu li a{
+      font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 812px) {
+    .navigation-menu li a{
+        font-size: 11px;
+    }
+  }
+
+@media only screen and (max-width: 722px) {
+    .navigation-menu li a{
+        font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navigation-menu li{
+        visibility: hidden;
+    }
+
+    .menu_icon a i{
+        visibility: visible;
+        font-size: 15px;
+        float: left;
+        text-align: center;
+    }
+    
+    .bell_icon a i{
+        visibility: visible;
+        float: left;
+        text-align: center;
+    }
+
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .navigation-left img{
+        width: 100%;   
+    }
+
+    .navigation-center img{ 
+        width: 80%;   
+        margin-left: 2rem;
+    }
+
+}
+   

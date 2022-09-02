@@ -1,0 +1,75 @@
+#calPeriod{
+  text-align: center;
+}
+
+#calPeriod input, #calPeriod select {
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#calmonth { width: 180px; }
+#calyear { width: 100px; text-align: center; }
+
+/* (C) CALENDAR */
+#calwrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.main{
+  width: 23%;
+}
+
+
+.calsq {
+  box-sizing: border-box;
+  width: 13%;
+  padding: 5px;
+  background-color: #ACE0B8;
+ 
+}
+.calsq.head {
+  color: #fff;
+  background: #ACE0B8;
+  font-weight: bold;
+  text-align: center;
+}
+.calsq.blank, .calsq.day {
+  height: 40px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  text-align: center;
+}
+.calsq.blank {
+   background: #fff;
+  }
+
+.calsq.today { 
+  background: #fff; 
+}
+
+.calnum { color: #888; }
+
+
+.calevt {
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.calninja { display: none; }
+
+
+.details p{
+  background-color: #eee;
+  position: relative;
+  margin-top: -5rem;
+  border-radius: 5px;
+  width: 60px;
+  height: 50px;
+  padding: 1rem;
+}
